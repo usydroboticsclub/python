@@ -86,7 +86,7 @@ print ("Input number 4:")
 var4 = input()
 ```
 You can see how it's getting a little tedious. Instead, we can create a list of variables under the same name to do the same thing:
-```
+```python
 listOfNumbers=[]
 currentPosition=0
 while currentPosition>10:
@@ -106,7 +106,7 @@ Also, you may have noticed that we started from 0 instead of 1 when we were cons
 
 ## 7 Types in python
 Different variables can have different types. For example:
-```
+```python
 p=5
 print (type(p))
 
@@ -120,7 +120,7 @@ p=[]
 print(type(p))
 ```
 This concept is important because sometimes when performing operations, you may not get the results you want. For example, try these, one line at a time:
-```
+```python
 print (5+5)
 
 print ("5"+"5")
@@ -134,7 +134,7 @@ print (2/5)
 print (2.0/5)
 ```
 You can also convert between types if necessary.
-```
+```python
 print("5"+5)
 print("5"+str(5))
 print(int("5")+5)
@@ -142,7 +142,7 @@ print(int("5")+5)
 
 ## 8 Dictionaries in python
 A dictionary in real life allows you to look up the meaning of a word. For example, 'cat' means 'a small domesticated creature'. In python, if you want to do so, you can use a dictionary.
-```
+```python
 meaningDictionary={}
 sizeDictionary={}
 
@@ -165,7 +165,7 @@ print("The size of " + query + " is "+ str(sizeDictionary["tomato"]))
 ## 9 Functions in python
 Sometimes a problem may be too big to do in one go. If so, you may want to break it into chunks. To do this, you can use functions.
 
-```
+```python
 def printNnumbers(n):
   temp = 0
   stringOut=""
@@ -188,7 +188,7 @@ Functions are also useful because:
 You may have noticed that I've used `temp` twice. The outside `temp` is different from the inside `temp`, because remember we want the function to behave the same way regardless of what environment it's in, so the inside `temp` is separate from the outside `temp`. This is called the `scope` of the variable.
 ## 10 Classes in python
 Say we wanted to represent a more complex object in python. For example, a cat:
-```
+```python
 class cat:
   def __init__(self):
       self.size=40
@@ -217,7 +217,7 @@ We don't have to re-code everything from scratch when there are plenty of progra
 
 To use other peoples' libraries, we need to tell our code to care about them. It doesn't automatically care about every library because there are a lot of libraries out there. Let's use the `math` library, which contains some useful functions:
 
-```
+```python
 import math
 
 print(math.cos(math.pi/2))
