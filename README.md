@@ -27,17 +27,91 @@ print (33*4)
 But python can help you do much more than just calculator work. To do this, it needs to be able to remember things. Let's look at an example:
 
 ```python
+cabbagePrice=10.05
+cabbageAmount=200
+grandTotal = cabbagePrice * cabbageAmount
+
+applePrice = 13.20
+appleAmount = 342
+grandTotal = grandTotal + (applePrice * appleAmount)
+print (grandTotal)
+```
+Here, we're still performing a simple multiplication, but you as the programmer have a better understanding of what the code is trying to do. We can also do more complex calculations using intermediate results, that we couldn't have done with just numbers.
+
+Now, you can call your variables whatever you want. The following code does the same job:
+
+```python
+cp=10.05
+ca=200
+gt = cp * ca
+
+ap = 13.20
+aa = 342
+gt = gt + (ap * aa)
+print (gt)
+```
+But if you were genuinely adding apples and cabbages, and you want to show your code to someone else, then the first example is much more readable. Code is shared a lot around the internet so good variable names makes sure everyone (including future you!) can read the code and understand it too.
+
+
+## 5 Types in python
+Different variables can have different types. For example:
+```python
+p=5
+print (type(p))
+
+p=2.5
+print(type(p))
+
+p="hello world"
+print(type(p))
+
+p=[]
+print(type(p))
+```
+This concept is important because sometimes when performing operations, you may not get the results you want. For example, try these, one line at a time:
+```python
+print (5+5)
+
+print ("5"+"5")
+
+print ("5"+5)
+
+print(20/5)
+
+print (2/5)
+
+print (2.0/5)
+```
+You can also convert between types if necessary.
+```python
+print("5"+5)
+print("5"+str(5))
+print(int("5")+5)
+```
+
+## 6 Inputs
+Now, we don't just want our computer to be able to do preset calculations - we want it to respond to different situations; otherwise we might as well do the maths using just a calculator!
+
+We can do this using inputs.
+```
+print("Type your name:")
+name = input()
+print("Your name is "+name+". I hope that isn't surprising.")
+```
+Now hit run. On the window on the right, you should be prompted to enter your name. See if the program works as you'd expect.
+
+A caveat for python is that all inputs are `string` type (`string` is a fancy computer term for 'word'). That means, we need to convert our inputs to numbers if we want to make a calculator.
+
+```
 print("Type a number:")
-num1 = input()
+num1 = int(input())
 
 print("Type another number:")
-num2 = input()
+num2 = int(input())
 
 print("The sum is:")
 print(num1+num2)
 ```
-
-Now hit run. On the window on the right, you should be prompted to enter two numbers. See if the program works as you'd expect.
 
 So what did we do here? We asked python to remember two numbers that we typed in, and then add them. Now you can run this program multiple times without changing the code, and it'll run just fine. 
 
@@ -104,41 +178,6 @@ while currentPosition>0:
 
 Also, you may have noticed that we started from 0 instead of 1 when we were considering our list. This is because in most real programming languages, arrays/lists start at 0.
 
-## 7 Types in python
-Different variables can have different types. For example:
-```python
-p=5
-print (type(p))
-
-p=2.5
-print(type(p))
-
-p="hello world"
-print(type(p))
-
-p=[]
-print(type(p))
-```
-This concept is important because sometimes when performing operations, you may not get the results you want. For example, try these, one line at a time:
-```python
-print (5+5)
-
-print ("5"+"5")
-
-print ("5"+5)
-
-print(20/5)
-
-print (2/5)
-
-print (2.0/5)
-```
-You can also convert between types if necessary.
-```python
-print("5"+5)
-print("5"+str(5))
-print(int("5")+5)
-```
 
 ## 8 Dictionaries in python
 A dictionary in real life allows you to look up the meaning of a word. For example, 'cat' means 'a small domesticated creature'. In python, if you want to do so, you can use a dictionary.
