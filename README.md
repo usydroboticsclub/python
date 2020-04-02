@@ -115,7 +115,7 @@ print(num1+num2)
 
 So what did we do here? We asked python to remember two numbers that we typed in, and then add them. Now you can run this program multiple times without changing the code, and it'll run just fine. 
 
-## 5 Control structures in python
+## 7 Control structures in python
 Now we've figured out how to get our program to do one thing. But sometimes you want your program to do multiple things. For example:
 ```python
 print("Type a number:")
@@ -144,7 +144,7 @@ Guess what this program is going to do? Run it, I'll let you find out.
 Notice that in python, you need to push forward (a.k.a. indent) the commands that are inside of your control structures, so that python knows which commands are affected by the control structure and which ones arent.
 
 Using these control structures you can make very complicated things. 
-## 6 Lists in python
+## 8 Lists in python
 Say we want to store a lot of numbers at a time. We could use a lot of variables:
 ```python
 print ("Input number 1:")
@@ -179,7 +179,7 @@ while currentPosition>0:
 Also, you may have noticed that we started from 0 instead of 1 when we were considering our list. This is because in most real programming languages, arrays/lists start at 0.
 
 
-## 8 Dictionaries in python
+## 9 Dictionaries in python
 A dictionary in real life allows you to look up the meaning of a word. For example, 'cat' means 'a small domesticated creature'. In python, if you want to do so, you can use a dictionary.
 ```python
 meaningDictionary={}
@@ -201,7 +201,7 @@ query = input()
 print("The size of " + query + " is "+ str(sizeDictionary["tomato"]))
 ```
 
-## 9 Functions in python
+## 10 Functions in python
 Sometimes a problem may be too big to do in one go. If so, you may want to break it into chunks. To do this, you can use functions.
 
 ```python
@@ -225,7 +225,7 @@ Functions are also useful because:
 - You can use other people's functions without typing them up or understanding the nitty gritty of how they work
 
 You may have noticed that I've used `temp` twice. The outside `temp` is different from the inside `temp`, because remember we want the function to behave the same way regardless of what environment it's in, so the inside `temp` is separate from the outside `temp`. This is called the `scope` of the variable.
-## 10 Classes in python
+## 11 Classes in python
 Say we wanted to represent a more complex object in python. For example, a cat:
 ```python
 class cat:
@@ -251,7 +251,7 @@ We use classes because it allows us to store a variety of related data and funct
 
 Many people use object-oriented programming, so it's useful to learn what it looks like when you're coding with it.
 
-## 11 Libraries in python
+## 12 Libraries in python
 We don't have to re-code everything from scratch when there are plenty of programmers around and the cost of copying code is second-to-none. For convenience's sake, people provide work they've already done as libraries of functions.
 
 To use other peoples' libraries, we need to tell our code to care about them. It doesn't automatically care about every library because there are a lot of libraries out there. Let's use the `math` library, which contains some useful functions:
@@ -270,7 +270,7 @@ NameError: name 'math' is not defined
 ```
 So if you need to use a library, make sure to `import` it!
 
-## 10 Go conquer the world!
+## 13 Go conquer the world!
 I hope we've made clear some fundamental concepts in programming for you to consider. Programming is immensely useful for creating the behaviours required in robotics; so this will be a useful first step. 
 
 If you want extra practice, why not try and code the following things:
