@@ -214,7 +214,7 @@ def printNnumbers(n):
   print (stringOut)
 
 print ("Let's make a triangle! Input size:")
-size=input()
+size=int(input())
 temp=0
 while (temp<size):
   printNnumbers(temp)
