@@ -1,6 +1,6 @@
 # Let's start with a programmer's classic: Hello World!
 
-print ("Hello world!")
+print("Hello world!")
 
 # This is the only line of active code in the file. All the other 
 # lines here are comments; these are for humans and the computer
@@ -15,9 +15,9 @@ print ("Hello world!")
 
 # You can also print other things, like numbers:
 
-print ("Now for some calculator stuff!")
-print (5)
-print (2+7)
-print (33*4)
+print("Now for some calculator stuff!")
+print(5)
+print(2+7)
+print(33*4)
 
 # But python can help you do much more than just calculator work. To do this, it needs to be able to remember things...
