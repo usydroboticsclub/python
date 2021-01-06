@@ -2,12 +2,12 @@
 # you want your program to do multiple things. For example:
 
 print("Type a number:")
-num1 = input()
+num1 = int(input())
 
 if (num1 == 5):
   print("You typed 5!")
 else:
-  print ("You didn't type 5!")
+  print("You didn't type 5!")
 
 # Using this `if`, you've steered your program down one set of commands if 
 # `num1` is 5, and a different set of commands if `num1` is not 5. Since 
@@ -16,13 +16,13 @@ else:
 
 # What other control structures can we use? Here's another one:
 print("Type a number:")
-num1 = input()
+num1 = int(input())
 
-while (num1>0):
-  print (num1)
+while (num1 > 0):
+  print(num1)
   num1 = num1 - 1
 
-print ("blastoff!")
+print("blastoff!")
 
 # Guess what this program is going to do? Run it, I'll let you find out.
 
