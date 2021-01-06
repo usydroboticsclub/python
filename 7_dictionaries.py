@@ -2,8 +2,8 @@
 # For example, 'cat' means 'a small domesticated creature'. In python, if 
 # you want to do so, you can use a dictionary.
 
-meaningDictionary={}
-sizeDictionary={}
+meaningDictionary = {}
+sizeDictionary = {}
 
 meaningDictionary["apple"] = "A fruit"
 sizeDictionary["apple"] = 5
@@ -18,4 +18,4 @@ print("Tomato means "+ meaningDictionary["tomato"])
 
 print("What would you like to look up?")
 query = input()
-print("The size of " + query + " is "+ str(sizeDictionary["tomato"]))
+print("The size of " + query + " is "+ str(sizeDictionary[query]))
