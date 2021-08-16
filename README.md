@@ -46,4 +46,13 @@ Once you're done looking over all the files, try some of these challenges!
 
 Happy coding!
 
-
+## Proof of work, session 1
+Write a program called `sayMyName.py` that prints out your name N times, where N is the first digit of your SID. 
+For example, if your SID is 432422232 and your name is Kimi Nonawa, then you would print:
+```
+Kimi Nonawa
+Kimi Nonawa
+Kimi Nonawa
+... (repeat 432 times total)
+Kimi Nonawa 
+```
