@@ -4,10 +4,10 @@
 print("Type a number:")
 num1 = int(input())
 
-if (num1 == 5):
-  print("You typed 5!")
+if (num1 < 25):
+  print("Your number is less than 25")
 else:
-  print("You didn't type 5!")
+  print("Your number is greater or equal to 25")
 
 # Using this `if`, you've steered your program down one set of commands if 
 # `num1` is 5, and a different set of commands if `num1` is not 5. Since 
@@ -17,12 +17,23 @@ else:
 # What other control structures can we use? Here's another one:
 print("Type a number:")
 num1 = int(input())
+print("Okay, let's see who can count to {} first! Ready?".format(num1))
+print("Type Y to start.")
+answer = input()
 
-while (num1 > 0):
-  print(num1)
-  num1 = num1 - 1
+num2 = 0
 
-print("blastoff!")
+if (answer == "Y"):
+
+  while (num2 <= num1):
+    print(num2)
+    num2 = num2 + 1
+
+  print("Beat you!")
+
+else:
+
+  print("You fool! Type Y next time.")
 
 # Guess what this program is going to do? Run it, I'll let you find out.
 

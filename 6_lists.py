@@ -26,12 +26,10 @@ while (len(listOfNumbers) < 5):
 
 # Another advantage of lists is that we can manipulate them in different ways:
 
-print("Numbers in reverse order:")
+print("Numbers in forward order:")
 
-currentPosition = len(listOfNumbers)
-while (currentPosition > 0):
-  currentPosition = currentPosition - 1
-  print(listOfNumbers[currentPosition])
+for i in listOfNumbers:
+  print(i)
  
 # (You may hear other programmers calling this an 'array'. Python likes to call
 # it a List. I usually call these things arrays. But this is a python tutorial 

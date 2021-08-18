@@ -15,9 +15,9 @@ print("Hello world!")
 
 # You can also print other things, like numbers:
 
-print("Now for some calculator stuff!")
-print(5)
-print(2+7)
-print(33*4)
+print("Now to perform some calculations!")
+print(35)
+print(2-7)
+print(33%4)
 
 # But python can help you do much more than just calculator work. To do this, it needs to be able to remember things...
