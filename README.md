@@ -1,10 +1,15 @@
-# python
-## 1 What is python?
+# usrc's python tutorial (the best one)
+## What is python?
 Python is a programming language. You write code files, and then you can run the code files, and they'll do what you told them to do.
 This tutorial will teach you how to use python in a variety of situations. If this is your first programming language, hopefully this is a gateway to a new way of understanding the world!
 
+## What makes this python tutorial better than the ones on the web?
+- Other python tutorials drip feed you bits and pieces of python. We give you all the files you need, transparently.
+- Other python tutorials run on web IDEs - ours is designed to run on your machine, so you're not left wondering how end to end python programs work.
+- Other python tutorials split code and theory. We put the theory in the code, so you can see exactly what's going on.
+
 ## Two ways to play: Install or Interpret
-There are two ways to approach this tutorial set. If you have time, we recommend installing python on your own computer; otherwise read below for an online interpeter.
+There are two ways to approach this tutorial set. If you have time, we recommend installing python on your own computer -  if you're really pressed for time, you can use an online interpeter.
 
 ### Installing python on your computer
 1. Go to the python website: https://www.python.org/downloads/
@@ -18,41 +23,8 @@ There are two ways to approach this tutorial set. If you have time, we recommend
     3. In the blue window that pops up, type in `python the_code_file.py`, then press enter.
 
 ### Using an interpreter
-Alternatively, if you don't have much room on your computer, you can use an online python environment. We recommend https://repl.it/languages/python3. Then, instead of downloading the files here, you can copy the entire contents of the file into the window on the left, and press the run button when you're ready. 
+Alternatively, if you don't have much room on your computer, you can use an online python environment. We recommend https://repl.it/languages/python3. Then, instead of downloading the files here, you can open each file, copy the entire contents of the file into the window on the left, and press the run button when you're ready. 
 
+Alright, time to get started! You can get started from `1_helloworld.py`, or jump to any topic if you're already familiar with the basics.
 
-Alright, time to get started! The files in this repository include:
-1. `1_helloworld.py`
-2. `2_variables.py`
-3. `3_types.py`
-4. `4_input.py`
-5. `5_control.py`
-5. `6_lists.py`
-5. `7_dictionaries.py`
-5. `8_functions.py`
-5. `9_classes.py`
-5. `10_libraries.py`
-
-If you have any edits to suggest, please email `usydrobotics@gmail.com` :)
-
-
-## Challenges
-Once you're done looking over all the files, try some of these challenges!
-
-- A program that outputs triangular numbers
-- A program that outputs prime numbers
-- A program that simulates a projectile's motion
-- A program that tells you the current system time
-
-Happy coding!
-
-## Proof of work, session 1
-Write a program called `sayMyName.py` that prints out your name N times, where N is the first 2 digits of your SID. 
-For example, if your SID is 432422232 and your name is Kimi Nonawa, then you would print:
-```
-Kimi Nonawa
-Kimi Nonawa
-Kimi Nonawa
-... (repeat 43 times total)
-Kimi Nonawa 
-```
+If you have any edits to suggest, please raise an issue on github, or `usydrobotics@gmail.com` :)
